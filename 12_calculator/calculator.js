@@ -13,8 +13,8 @@ const sum = function (arr) {
 };
 
 const multiply = function (arr) {
-  return arr.reduce((acc, curr) => {
-    return (acc *= curr);
+  return arr.reduce((product, current) => {
+    return (product *= current);
   }, 1);
 };
 
